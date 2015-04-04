@@ -11,10 +11,12 @@ N/A
 Role Variables
 --------------
 
-nginx_proxy_name: name for the configuration file, logs
-nginx_proxy_listen: nginx port to listen on
-nginx_proxy_server_name: nginx host to listen on
-nginx_proxy_pass: proxy uri (eg. http://localhost:8080, or file://tmp/project.sock)
+See defaults/main.yml
+
+    nginx_proxy_name: name for the configuration file, logs
+    nginx_proxy_listen: nginx port to listen on
+    nginx_proxy_server_name: nginx host to listen on
+    nginx_proxy_pass: proxy uri (eg. http://localhost:8080, or file://tmp/project.sock)
 
 
 Dependencies
