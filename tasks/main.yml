@@ -1,0 +1,7 @@
+---
+# tasks file for mnn.nginx-proxy
+
+- name: Install nginx site conf
+  template: src=nginx-proxy.conf
+            dest=/etc/nginx/sites-enabled/{{ nginx_proxy_name }}.conf
+  notify: reload nginx

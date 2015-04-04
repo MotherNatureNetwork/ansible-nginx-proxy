@@ -1,0 +1,5 @@
+---
+# handlers file for mnn.nginx-proxy
+
+- name: reload nginx
+  service: name=nginx state=reloaded

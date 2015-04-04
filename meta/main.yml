@@ -1,0 +1,19 @@
+---
+galaxy_info:
+  author: Justin Caratzas
+  description: Install an nginx proxy configuration
+  company: Mother Nature Network
+  license: GPLv3
+  min_ansible_version: 1.2
+  platforms:
+    - name: Ubuntu
+      versions:
+        - trusty
+    - name: Debian
+      versions:
+        - wheezy
+  categories:
+  - web
+
+dependencies:
+  - geerlingguy.nginx
