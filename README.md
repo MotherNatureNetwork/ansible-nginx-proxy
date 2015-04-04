@@ -1,4 +1,4 @@
-Role Name
+Nginx-Proxy
 =========
 
 Installs an nginx proxy site.
