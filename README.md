@@ -27,10 +27,12 @@ geerlingguy.nginx
 Example Playbook
 ----------------
 
-Here is an example playbook for setting up a Gogs (http://gogs.io) nginx proxy.
+Here is an example playbook for setting up a Gogs (http://gogs.io) server that
+listens on git.* through an nginx proxy.
 
     - hosts: Gogs server
       roles:
+         - role: geerlingguy.gogs
          - role: mnn.nginx-proxy
            nginx_proxy_name: gogs
            nginx_proxy_server_name: git.*
